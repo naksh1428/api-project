@@ -4,4 +4,4 @@ app = FastAPI()
 
 @app.get("/")
 def index():
-    return {"details": f"Hello {env['NAME']}"}
+    return {"details": f"Hello, welcome  {env['NAME']}"}
